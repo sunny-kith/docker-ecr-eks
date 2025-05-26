@@ -4,7 +4,7 @@
 
 ```
 docker build -t skith/docker-ecr-eks .
-docker run -d -p 4000:8080 skith/docker-ecr-eks
+docker run -d -p 8080:8080 skith/docker-ecr-eks
 ```
 
 ## AWS ECR

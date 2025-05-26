@@ -1,4 +1,4 @@
-name: Push image to ECR
+name: Build and deploy
 
 on:
   push:
@@ -10,8 +10,7 @@ env:
 
 jobs:
 
-  build:
-
+  build-and-push-image:
     name: Deployment
     runs-on: ubuntu-latest
 
