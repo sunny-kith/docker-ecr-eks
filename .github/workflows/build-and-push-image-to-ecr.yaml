@@ -2,7 +2,7 @@ name: Push image to ECR
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 env:
   ECR_REPOSITORY: skith/docker-ecr-eks
