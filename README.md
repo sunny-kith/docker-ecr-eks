@@ -28,3 +28,4 @@ Group name: `administrators` (with "AdministratorAccess" policy)
    - Select “CLI” as the use case
    - Download the CSV file containing the access key and secret key for future reference. These keys will be needed when working with GitHub
 
+Create Github secrets: `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`
