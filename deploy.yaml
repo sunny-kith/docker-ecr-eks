@@ -16,10 +16,10 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: 256707027015.dkr.ecr.ca-central-1.amazonaws.com/skith/docker-ecr-eks:1fc746d3b95151980048840074163f68035694f3
+          image: 256707027015.dkr.ecr.ca-central-1.amazonaws.com/skith/docker-ecr-eks:a17b6e1c7675152fa2488b0d7bc5b499ca1d409c
           imagePullPolicy: Always
           ports:
-          - containerPort: 4000
+          - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
@@ -32,4 +32,4 @@ spec:
   ports:
     - protocol: TCP
       port: 8080
-      targetPort: 4000
+      targetPort: 8080

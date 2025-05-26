@@ -29,3 +29,7 @@ Group name: `administrators` (with "AdministratorAccess" policy)
    - Download the CSV file containing the access key and secret key for future reference. These keys will be needed when working with GitHub
 
 Create Github secrets: `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`
+
+----
+
+SOURCE: https://dlmade.medium.com/ci-cd-with-github-action-and-aws-eks-5fd9714010cd
